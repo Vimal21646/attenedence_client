@@ -1,27 +1,23 @@
-# Spring Boot & React - Example RESTful Application
----
+## Client Application
 
-**Application Name:** Meeting
+This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app). (**requires Node**)
 
-Meeting is an example RESTful application that uses React for client and Spring Boot as backend service. 
-Demonstrates CRUD operations for Employee, Department and Meeting entities. Client and server applications are formed as separate projects.
+**Techs:** React, react-bootstrap, axios for http requests, and several react components.
 
-**Client Application:** [meeting-client](meeting-client)
+**Installing dependencies**
 
-**Server Application:** [meeting-server](meeting-server)
+run `npm install` in the client application root directory.
 
-**MySQL create script with initial data:** [db_meeting.sql](files/db_meeting.sql)
+**Scripts**
 
-**MySQL Workbench project file:** [meeting.mwb](files/meeting.mwb)
+`npm start` : Runs the app in development mode.
 
-**Meeting ER Diagram:**
+`npm run build` : Builds the app for production to the build folder.
 
-![Meeting ER](/files/MeetingER.png?raw=true "Meeting ER")
+**App URL:** http://localhost:3000
 
-**TODO:**
-* Add Pagination(Lazy loading)
-* Add Authentication & Authorization
-* Add client side input validation, toast notification and loader effect
-* Add RESTful fail checks both for client and server side
-* May add service interfaces
-* Add client tests
+**App Screenshots**
+
+![Employees](../files/scr_1.JPG?raw=true)
+
+![Update Meeting](../files/scr_2.JPG?raw=true)
