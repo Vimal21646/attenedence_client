@@ -15,6 +15,7 @@
     "react-select": "^1.0.0-rc.1"
   },
   "scripts": {
+    "postinstall": "chmod -R +x node_modules/next/dist/bin/next-* && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
